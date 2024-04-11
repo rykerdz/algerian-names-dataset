@@ -10,7 +10,7 @@ These datasets offer a fantastic resource for anyone with an interest in Algeria
 **Things to Keep in Mind:**
 
 * **Designed for Learning:** These datasets are primarily for educational purposes. If you're exploring language analysis, researching Algerian names, or undertaking similar projects, you'll find these datasets useful. 
-* **Let's Chat:** To ensure responsible use, please contact the repository maintainer (include your contact method) if you'd like to use the datasets. Briefly describe your project, and we'll get you set up!
+* **Let's Chat:** To ensure responsible use, please contact the repository maintainer @ youcef.amoura@etu.usthb.dz if you'd like to use the datasets. Briefly describe your project, and we'll get you set up!
 
 **Data Format:**
 
@@ -19,24 +19,37 @@ Both datasets are in CSV format with the following columns:
 * `latin_name` 
 * `arabic_name` 
 
-**Examples (Randomly Selected):**
+**Sample Data ((100 entries each)):**
 
-```python
-import pandas as pd
-import random
+**Names (algerian_names.csv):**
 
-# Surnames Dataset
-df_surnames = pd.read_csv('sample_data/algerian_surnames.csv') 
-random_surnames = df_surnames.sample(n=3) 
+| Latin Script | Arabic Script |
+|---|---|
+|MONCEF ISLEM | منصف إسلام
+|MELISSA | ميليسا
+|CHAHD | شهد
+|RIHAM | رهام
+|CERINE YASMINE | سيرين ياسمين
+| ... | ... |
 
-print("Surnames:")
-for index, row in random_surnames.iterrows():
-    print(f"- {row['latin_name']}") 
+**Surnames (algerian_surnames.csv):**
 
-# Names Dataset
-df_names = pd.read_csv('sample_data/algerian_names.csv')
-random_names = df_names.sample(n=3)
+| Latin Script | Arabic Script |
+|---|---|
+|HAMSI | حمسي
+|BOULKEDRA | بولقدرة
+|BERICHI | بريشي
+|MEHALI | محالي
+|BOUSSAKOU| بوساقو
+| ... | ... |
 
-print("\nNames:")
-for index, row in random_names.iterrows():
-    print(f"- {row['latin_name']}") 
+**The sample files are located in the 'sample_data' folder.**
+
+
+**Collaborators Welcome!**
+
+We'd love to expand this dataset with contributions from the community. If you have additional Algerian names and surnames to share, here's how to get involved:
+
+1. **Fork this repository.** 
+2. **Make additions to the dataset file(s).**
+3. **Submit a pull request.**
