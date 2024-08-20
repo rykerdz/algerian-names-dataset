@@ -45,6 +45,10 @@ Both datasets are in CSV format with the following columns:
 
 **The sample files are located in the 'sample_data' folder.**
 
+**Full Dataset Download**
+
+* [names.csv](https://drive.google.com/file/d/1zQQpfk-q1WAxXNj64A6UESs5Lf45Bn_e/view?usp=sharing)
+* [surnames.csv](https://drive.google.com/file/d/1F6X9bu3GEUDJKne2V78pBxwL4r9uHPhN/view?usp=sharing)
 
 **Collaborators Welcome!**
 
